@@ -11,5 +11,6 @@ web:
   volumes:
    - ./default:/etc/nginx/sites-enabled/default
    - ./default:/etc/nginx/conf.d/default.conf
+   - ./mysite:/var/www/html/mysite
   links:
    - fpm 
