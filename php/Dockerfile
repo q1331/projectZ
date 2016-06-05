@@ -1,5 +1,5 @@
 FROM php:fpm
-RUN apt-get update && docker-php-ext-install mysqli \ 
+RUN apt-get update && docker-php-ext-install mysqli pdo pdo_mysql\ 
 				   && apt-get install -y zlib1g-dev \
 				   && apt-get install -y vim \
 				   && docker-php-ext-install zip
