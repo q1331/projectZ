@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

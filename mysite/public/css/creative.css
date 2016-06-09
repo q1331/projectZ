@@ -9,9 +9,7 @@ body {
   height: 100%;
   width: 100%;
 }
-body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-}
+
 hr {
   border-color: #f05f40;
   border-width: 3px;
