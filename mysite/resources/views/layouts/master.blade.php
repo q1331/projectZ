@@ -65,8 +65,17 @@
 		<li>
 		    <a class="page-scroll" href="#portfolio">Portfolio</a>
 		</li>
-		<li><a class="page-scroll cd-signin" href="#0">Sign in</a></li>
-		<li><a class="page-scroll cd-signup" href="#0">Sign up</a></li>
+		<!--@if (Auth::check())-->
+			<li><a class="page-scroll cd-signin" href="#0">Sign in</a></li>
+			<li><a class="page-scroll cd-signup" href="#0">Sign up</a></li>
+		<!--@else-->
+			<li class="dropdown">
+			    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>-->
+			    <ul class="dropdown-menu" role="menu">
+				<li><a href="/auth/logout">Logout</a></li>
+			    </ul>
+			</li>
+		<!--@endif-->
 	    </ul>
 	</div>
 	<!-- /.navbar-collapse -->
@@ -81,22 +90,23 @@
 			</ul>
 
 			<div id="cd-login"> <!-- log in form -->
-				<form class="cd-form">
+				<form class="cd-form" method="POST" action="/auth/login">
+					<!--{!! csrf_field() !!}-->
 					<p class="fieldset">
 						<label class="image-replace cd-email" for="signin-email">E-mail</label>
-						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
-						<span class="cd-error-message">Error message here!</span>
+						<input class="full-width has-padding has-border" id="signin-email" name="email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Please enter a correct email address!</span>
 					</p>
 
 					<p class="fieldset">
 						<label class="image-replace cd-password" for="signin-password">Password</label>
-						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+						<input class="full-width has-padding has-border" id="signin-password" name="password" type="text"  placeholder="Password">
 						<a href="#0" class="hide-password">Hide</a>
-						<span class="cd-error-message">Error message here!</span>
+						<span class="cd-error-message">Wrong password</span>
 					</p>
 
 					<p class="fieldset">
-						<input type="checkbox" id="remember-me" checked>
+						<input type="checkbox" name="remember" id="remember-me" checked>
 						<label for="remember-me">Remember me</label>
 					</p>
 
@@ -110,24 +120,29 @@
 			</div> <!-- cd-login -->
 
 			<div id="cd-signup"> <!-- sign up form -->
-				<form class="cd-form">
+				<form class="cd-form" method="POST" action="/auth/register">
+					<!--{!! csrf_field() !!}-->
 					<p class="fieldset">
 						<label class="image-replace cd-username" for="signup-username">Username</label>
-						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
-						<span class="cd-error-message">Error message here!</span>
+						<input class="full-width has-padding has-border" id="signup-username" name="username" type="text" placeholder="Username">
+						<span class="cd-error-message">Illegal username</span>
 					</p>
-
+					<p class="fieldset">
+						<label class="image-replace cd-name" for="signup-name">Name</label>
+						<input class="full-width has-padding has-border" id="signup-name" type="text" name="name" placeholder="Name">
+						<span class="cd-error-message">Please use your legal name</span>
+					</p>
 					<p class="fieldset">
 						<label class="image-replace cd-email" for="signup-email">E-mail</label>
-						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
-						<span class="cd-error-message">Error message here!</span>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" name="email" placeholder="E-mail">
+						<span class="cd-error-message">Incorrect email format</span>
 					</p>
 
 					<p class="fieldset">
 						<label class="image-replace cd-password" for="signup-password">Password</label>
-						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  name="password" placeholder="Password">
 						<a href="#0" class="hide-password">Hide</a>
-						<span class="cd-error-message">Error message here!</span>
+						<span class="cd-error-message">Illegal password</span>
 					</p>
 
 					<p class="fieldset">

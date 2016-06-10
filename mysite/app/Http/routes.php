@@ -12,14 +12,12 @@
 */
 Route::get('/','Front@index');
 Route::get('/search/{query}','Front@search');
+
 // Authentication routes...
-Route::get('auth/login', 'Front@login');
-Route::post('auth/login', 'Front@authenticate');
-Route::get('auth/logout', 'Front@logout');
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
 // Registration routes...
-Route::post('/register', 'Front@register');
-Route::get('/checkout', [
-    'middleware' => 'auth',
-    'uses' => 'Front@checkout'
-]);
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
