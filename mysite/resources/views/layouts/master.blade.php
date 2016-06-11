@@ -30,10 +30,9 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
 
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
@@ -50,7 +49,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	    </button>
-	    <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+	    <a class="navbar-brand page-scroll" href="#page-top">LOGO</a>
 	</div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,16 +64,19 @@
 		<li>
 		    <a class="page-scroll" href="#portfolio">Portfolio</a>
 		</li>
-		@if (Auth::check())
+		@if (!Auth::check())
 			<li><a class="page-scroll cd-signin" href="#0">Sign in</a></li>
 			<li><a class="page-scroll cd-signup" href="#0">Sign up</a></li>
 		@else
-			<li class="dropdown">
-			    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span></a>
-			    <ul class="dropdown-menu" role="menu">
-				<li><a href="/auth/logout">Logout</a></li>
-			    </ul>
-			</li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn" >{{Auth::user()->name}}<span class="caret"></span></a>
+            <div class="dropdown-content">
+                <a href="{{ url('/auth/logout') }}" >Logout</a>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            </li>
 		@endif
 	    </ul>
 	</div>
@@ -91,7 +93,7 @@
 
 			<div id="cd-login"> <!-- log in form -->
 				<form class="cd-form" method="POST" action="/auth/login">
-					<!--{!! csrf_field() !!}-->
+					{!! csrf_field() !!}
 					<p class="fieldset">
 						<label class="image-replace cd-email" for="signin-email">E-mail</label>
 						<input class="full-width has-padding has-border" id="signin-email" name="email" type="email" placeholder="E-mail">
@@ -121,7 +123,7 @@
 
 			<div id="cd-signup"> <!-- sign up form -->
 				<form class="cd-form" method="POST" action="/auth/register">
-					<!--{!! csrf_field() !!}-->
+					{!! csrf_field() !!}
 					<p class="fieldset">
 						<label class="image-replace cd-username" for="signup-username">Username</label>
 						<input class="full-width has-padding has-border" id="signup-username" name="username" type="text" placeholder="Username">

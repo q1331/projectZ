@@ -48,6 +48,49 @@ input::-ms-clear, textarea::-ms-clear {
 Main components 
 
 -------------------------------- */
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*li a:hover, .dropdown:hover .dropbtn {*/
+    /*background-color: white;*/
+/*}*/
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: red}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 header[role=banner] {
   position: relative;
   height: 50px;
@@ -122,8 +165,7 @@ header[role=banner]::after {
   line-height: 50px;
   padding-left: 5%;
   background: #292a34;
-  border-top: 1px solid #3b3d4b;
-  color: #FFF;
+  /*color: #FFF;*/
 }
 @media only screen and (min-width: 768px) {
   .main-nav {
@@ -157,7 +199,6 @@ header[role=banner]::after {
     margin-left: 2em;
   }
   .main-nav a {
-    display: inline-block;
     height: auto;
     line-height: normal;
     background: transparent;
