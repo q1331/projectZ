@@ -65,17 +65,17 @@
 		<li>
 		    <a class="page-scroll" href="#portfolio">Portfolio</a>
 		</li>
-		<!--@if (Auth::check())-->
+		@if (Auth::check())
 			<li><a class="page-scroll cd-signin" href="#0">Sign in</a></li>
 			<li><a class="page-scroll cd-signup" href="#0">Sign up</a></li>
-		<!--@else-->
+		@else
 			<li class="dropdown">
-			    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>-->
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span></a>
 			    <ul class="dropdown-menu" role="menu">
 				<li><a href="/auth/logout">Logout</a></li>
 			    </ul>
 			</li>
-		<!--@endif-->
+		@endif
 	    </ul>
 	</div>
 	<!-- /.navbar-collapse -->
