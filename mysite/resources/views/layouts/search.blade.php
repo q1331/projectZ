@@ -1,8 +1,4 @@
 @section('searchBar')
-<link href="css/search.css" rel="stylesheet">
-<link href="css/datepicker.css" rel="stylesheet">
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="js/search.js"></script>
 <div class="search">
     <div class="container">
         <div class="row">
@@ -12,48 +8,26 @@
                         <form role="form">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label class="sr-only" for="location">Location</label>
-                                    <input type="email" class="form-control" id="location" placeholder="Where ?">
+                                    <label class="sr-only" for="applicationType">applicationType</label>
+                                    <input type="text" class="form-control" id="applicationType" placeholder="项目关键字">
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-4">
                                 <div class="form-group">
-                                    <label class="sr-only" for="checkin">Check in</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="checkin" placeholder="Check in">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                    <label class="sr-only" for="startApplication">申请开始时间</label>
+                                    <div class='input-group date' id='datetimepicker1'>
+                                        <input type="text" class="form-control" placeholder="开始申请时间">
+                                        <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="form-group">
-                                    <label class="sr-only" for="checkout">Check out</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="checkout" placeholder="Check out">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="form-group">
-                                    <label class="sr-only" for="guest">Guest</label>
-                                    <select id="guest" name="guest" class="form-control">
-                                        <option value="1">1 Guest</option>
-                                        <option value="2">2 Guests</option>
-                                        <option value="3">3 Guests</option>
-                                        <option value="4">4 Guests</option>
-                                        <option value="5">5 Guests</option>
-                                        <option value="6">6 Guests</option>
-                                        <option value="7">7 Guests</option>
-                                        <option value="8">8 Guests</option>
-                                        <option value="9">9 Guests</option>
-                                        <option value="10">10 Guests</option>
-                                        <option value="11">11 Guests</option>
-                                        <option value="12">12 Guests</option>
-                                        <option value="13">13 Guests</option>
-                                        <option value="14">14 Guests</option>
-                                        <option value="15">15 Guests</option>
-                                        <option value="16">16+ Guests</option>
+                                <div class="form-group teamType">
+                                    <label class="sr-only" for="teamType">类别</label>
+                                        <label><input type="checkbox" value="">团队</label>
+                                        <label><input type="checkbox" value="">个人</label>
                                     </select>
                                 </div>
                             </div>
@@ -61,6 +35,11 @@
                                 <button type="submit" class="btn btn-default btn-primary">Search</button>
                             </div>
                         </form>
+                        <script type="text/javascript">
+                            $(function () {
+                                $('#datetimepicker1').datepicker();
+                            });
+                        </script>
                     </div>
                 </div>
             </div>
