@@ -16,18 +16,18 @@
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
-                    <hr class="light">
-    				<p class="text-faded">Welcome to our StartUp!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    {{--<section class="bg-primary" id="about">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-lg-8 col-lg-offset-2 text-center">--}}
+                    {{--<h2 class="section-heading">We've got what you need!</h2>--}}
+                    {{--<hr class="light">--}}
+    				{{--<p class="text-faded">Welcome to our StartUp!</p>--}}
+                    {{--<a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
 
     <section id="services">
         <div class="container">
@@ -70,11 +70,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section>
-    @extends('layouts.search')
+        @extends('layouts.search')
         @section('searchBar')
-        @parent
+            @parent
     </section>
 
     <!-- jQuery -->
@@ -88,6 +86,19 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script>
+        $(document).ready(function(){
+            var date_input=$('input[name="date"]'); //our date input has the name "date"
+            var container=$('.search form').length>0 ? $('.search form').parent() : "body";
+            var options={
+                format: 'mm/dd/yyyy',
+                container: container,
+                todayHighlight: true,
+                autoclose: true,
+            };
+            date_input.datepicker(options);
+        })
+    </script>
 
 </body>
 @endsection()

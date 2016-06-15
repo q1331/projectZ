@@ -2,11 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6386d079-70ae-4f3c-8e9c-81df2a7d69f1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/02af0f75a797b7afaca6f08a97e04ea9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/039dad47008f46985cb271a450918fee.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/0735d3ef2aa751fb305a91dc5c48d1ee.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/08e081eb43121bb01c50d1d0d6658e91.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/0933322f4f799f8e1d01a0ca6ec55c90.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/0c1066131ae4409ed07fe96d2fe8171b.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/0cb152f2351295d7db3018fc52ff38bb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/0d603761d24708d80df1ad68fae9ccac.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/0f7f9a2d58f0e6cbb56f39752194610c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/1045714d0f666af9cbda2fb8632b943c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/11e929d757535f23aa865618179166ad.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/14675cefe8be3624f2fe3073ce6e9d86.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/1535a0658f3c89dbd8464895d71f1d42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/18fd0bc6f4d7bfe4d4ecd822be2e6e35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/195447c278cb98e3e1bb3246764fbc49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/19dcb17eb64216e679a8001b83b9ed03.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/238c43537b8320a375acc3314cf850a9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/26d106ba6d4db4ff5a3425cad802b7d9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/2890f1d2016ee2f6e173f6e0868ef95f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/2a19647f35991205c487168ff19c6e91.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/2a62f6796c1763996b16378783c9c4d5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/2b542db4c53e7b33926e3cfcd7c8af3d.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/2ec68cf558a2b1a8a0caacfd39aa62de.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/3099e3683dcb7e99525d827a3357ff6c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/339439f7a9f1815bdeec9a5c8fe7bc9c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/3537214deeb74a9668b63169407ae379.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/38697bc7f0ddf83f80c4e5b4b80937ea.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/39510d079b43755a46aa4d04f4c90199.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/3f21294726068805428b852bfa6b76bf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/416d7aa4bfddca022c6a4848d7111c46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/4224f89169278c5f69fe7655b4f17f96.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/43941fc48a59e23be8096ff31633d27c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/45154aa870d16823e9b934a4bb5da9c5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/45c5d9b3a2eb412d62bd821c4f32b108.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/4836ee00d66d95c20e07f725b41cb616.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/48ff1796f083789da303d3d72e404035.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/4ac4aa88ef66ab6c1797057f2599b028.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/4c5e3c1bc3cb494aa17742ce365bb54e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/4cfd36d75f532fc9cf771d2f2f12655a.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/549f0810444bf9cf9b49613529fa0751.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/58a9d944885f8eff3ae4a4734e6a63fa.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/595c2264ec78901384ef5816bbcd306e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/5ac0828eb998573aaff2c92336b93573.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/5ace44b26092289c81eed304a04ad106.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/5bb0b492ccaf3b9a3d86636731d2ff8c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/5bccbeef4eb52b4f73fbfde62d14e307.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/5e8b8db3eaf0e259dda7c1285019f027.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/5f3b7273e7ab63461b30dbdc02c8170a.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/62955e3d44256680b96d91d7a43f017a.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/63a697ac9a027b593988b0adea6ddd87.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/64f158881513ae4b4c87fa2e5ef3a6cb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/65fb001d0582c9e9b1235fb0d5bff61e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/67b5c0bec9397d61a9bf665d7c05de71.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/68c73c866bac84bc8a23847897026002.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/69744d9a5b4c05405a87d5f050a915b2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/6e4d0a30680426b30e3698930124f5bb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/747b9e7efbbec100a58ec2a586db6470.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/754a298cc137d859d4de8dce1d54c5c3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/7cae3e9cedb8ae52cc1253f1fbcd4f2e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/7d90dbfae82a0e8cb965765b1174deb4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/7ec4f01dc008869ccf0ff3046abe7fed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/8008addb8b5141eaf220b9e9492eeaf9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/80681dab16407ec3d168b204f3fbca41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/82681150f4754357c4bd455c6811d551.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/83b8a6f953db80969bd34076b9a3a11c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/87b5573bf995faa25aafdb0e88699f12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/87b5698c203e2d1b81a52c0ccb3f72b3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/8929451d704f56f89e8a4f9d3effb6d0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/90cad5e29cb9001cbb26ffee33265e61.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/94703f78142bcc12b0f9c2d298325bc4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/94d93e56a38e96ca8bac4608989688c4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/964b09a5fd17906d9840ddbd92fab591.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/97a9e442d94c3c8159f5eabdd5ba96a5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/9b9f2aa2b68f6254c69dbd14299634f4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/9d3a3df5fab7b3b005ab04920ed917d6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/9d634bf120dbe1af756ebef53c6f8561.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/a06d302c4c104f2936bffd5061947557.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/a07ed381d8610e8a7f9eb788c6ea1431.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/a26f0cad659f11f291665914b4ee636b.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/a66b16ac77468d7d9e14f9a57455b381.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/a6bc7758f08844798f11b9e14c22b325.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/a72131a485b057f504343c365d831714.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/ad724a481903214dad8a054369e88228.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/afd5cb609deaec2ea9d09994a1112d83.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/b55b250f89d51a1c41e1043af7101f5c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/b7fc931d8460e3be4fba246e51d6f4c0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/bd72dc9715e914164ee12160475d1e20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/bfea5f53324bb0fc3bfabc0915d4d010.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/c125caffbf73d72bc5f2ec00af50edcd.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/c3d7671dedcabd9abab14e887c43b728.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/c58224820a0aa5958d2f5505da2a01d4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/c5c387a9d8fb3e86280376ebf60246b0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/c719babb4f3573d2a0736eded90d8bf3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/c7400ff26e4d2e8793e9211b893954d4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/ccf08e351d105868065da82a2a1f328d.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/ccf8c392ce8723cd3136c6a45adfb85c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/cf9c20f2972114f6e3cd3f12302554c8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/cfaaa98ae2662133429305fc0f6c68ef.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/d163819716253fb0edc8022b69501d8f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/d4c5a44fedfb1d9cd14883f32a3b01b2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/d71c681ed500db25ab13adab9f745319.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/d826785d39bdaa31c0c6b5626b434360.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/da49a7b14db76433e35373c253497303.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/da6c6e4fe8317da64e42883b8997ced5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/da728869ce12ff6243131d31a661cc3f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/de9876bfcdb753ce6f02ecbeac136ca3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/e28b7cfa517d40811e2a0a32df137230.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/e553c77c651a4f7b3d005dcd49749d5d.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/e62ba911f855549499f9ce3d0133cd1c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/e986036214ea8d59c8f2e9893c382f5b.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/eafa8e51c768697ee1fac31e7e502aeb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/ec60601279067f976fc2efeb4860279b.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/ef3011fcaf93b2f21537b935f85fe4be.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/f030e832d3f4c4b5228b19af903278a6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/f2673d587f711297e5e0adaf5c4f826f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/f2bfe193e4b2f0f87d98207ebbcfbb06.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/f8663ebe973a97858ec4eb7f10d6df1e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/f94d3d93ba305603c632e24fead7ef52.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/fd5032db2cbb0c6b93e3d5f04d4ff2e1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/fe22c575bb54256c1f448a135d46bae8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/debugbar/ff9fbb6a33dff6b10df9361966472a36.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/search.css" afterPath="$PROJECT_DIR$/public/css/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/search.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/search.blade.php" />
     </list>
@@ -33,18 +152,18 @@
       <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+            <state relative-caret-position="681">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/search.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="60">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -53,18 +172,18 @@
       <file leaf-file-name="search.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/search.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+            <state relative-caret-position="-1434">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -97,10 +216,11 @@
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/public/js/search.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/serach.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/datePicker.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/search.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/public/css/search.css" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/search.blade.php" />
       </list>
     </option>
   </component>
@@ -155,7 +275,128 @@
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -208,12 +449,12 @@
       <updated>1465604025721</updated>
       <workItem from="1465604028121" duration="607000" />
       <workItem from="1465604988449" duration="307000" />
-      <workItem from="1465605377134" duration="21812000" />
+      <workItem from="1465605377134" duration="29133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22726000" />
+    <option name="totallyTimeSpent" value="30047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-332" y="-1080" width="1920" height="1080" extended-state="6" />
@@ -227,7 +468,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -395,27 +636,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap-datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/datepicker.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-954">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/modernizr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="1405" column="0" selection-start-line="1405" selection-start-column="0" selection-end-line="1405" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,34 +662,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/search.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/js/datePicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/search.css">
+    <entry file="file://$PROJECT_DIR$/public/css/datepicker.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/js/bootstrap-datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        <state relative-caret-position="-825">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+        <state relative-caret-position="-1434">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
           <folding />
         </state>
       </provider>
