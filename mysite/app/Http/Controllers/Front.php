@@ -15,9 +15,13 @@ class Front extends Controller {
         return view('login', array('page' => 'home'));
     }
 
-    public function search($query) {
-        return view('products', array('page' => 'products'));
+    public function search() {
+        return view('market');
     }
+	
+	public function item() {
+		return view('item');
+	}
 
     public function register() {
    	 	if (Request::isMethod('post')) {

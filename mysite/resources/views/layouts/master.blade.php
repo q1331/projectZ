@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Our startup</title>
 
     <!-- Bootstrap Core CSS -->
         
@@ -27,8 +27,9 @@
     <link rel="stylesheet" href="css/creative.css" type="text/css">
     <link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
     <link rel="stylesheet" href="css/search.css">
+    <link href="css/shop-item.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim marketand Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
     <script src="js/modernizr.js"></script> <!-- Modernizr -->

@@ -10,10 +10,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::group(['middleware' => ['web']], function () {
-    Route::get('/', 'Front@index');
-    Route::get('/search/{query}', 'Front@search');
+Route::get('/', 'Front@index');
+Route::get('/search', 'Front@search');
+Route::get('/item', 'Front@item');
 
+Route::group(['middleware' => ['web']], function () {
 // Authentication routes...
     Route::get('auth/login', 'Auth\AuthController@getLogin');
     Route::post('auth/login', 'Auth\AuthController@postLogin');

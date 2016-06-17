@@ -2,14 +2,14 @@
 <div class="search">
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-md-offset-2">
+            <div class="col-md-10 col-md-offset-3">
                 <div class="form-section">
                     <div class="row">
-                        <form role="form">
+                        <form role="form" method="GET" action="/search">
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label class="sr-only" for="applicationType">applicationType</label>
-                                    <input type="text" class="form-control" id="applicationType" placeholder="项目关键字">
+                                    <input type="text" class="form-control" name="keyWord" id="applicationType" placeholder="项目关键字">
                                 </div>
                             </div>
                             <div class="col-md-3">
