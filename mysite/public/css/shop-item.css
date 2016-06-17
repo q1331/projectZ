@@ -20,3 +20,23 @@
 footer {
     margin: 50px 0;
 }
+
+.list-group-item.active {
+    background-color: white;
+    border-color: coral;
+    color: coral;
+}
+
+.list-group-item.active:hover{
+    background-color: coral;
+    border-color: coral;
+}
+
+.list-group-item.inactive{
+    color: coral;
+}
+
+.list-group-item.inactive:hover{
+    background-color: coral;
+    color: white;
+}
