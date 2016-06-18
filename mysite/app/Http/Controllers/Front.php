@@ -23,6 +23,10 @@ class Front extends Controller {
 		return view('item');
 	}
 
+	public function dashboard() {
+		return view('dashboard.dashboard');
+	}
+    
     public function register() {
    	 	if (Request::isMethod('post')) {
         	User::create([

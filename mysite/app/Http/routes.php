@@ -15,6 +15,7 @@ Route::get('/search', 'Front@search');
 Route::get('/item', 'Front@item');
 
 Route::group(['middleware' => ['web']], function () {
+    Route::get('/dashboard', 'Front@dashboard');
 // Authentication routes...
     Route::get('auth/login', 'Auth\AuthController@getLogin');
     Route::post('auth/login', 'Auth\AuthController@postLogin');

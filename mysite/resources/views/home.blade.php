@@ -43,29 +43,29 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">This is a placeholder text :)</p>
+                        <h3>质量保证</h3>
+                        <p class="text-muted">超越中介流水线服务的品质</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted"> This page will be in Chinese </p>
+                        <h3>反应敏捷</h3>
+                        <p class="text-muted">你的要求随时能得到答复</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">这是一句话</p>
+                        <h3>第一手资讯</h3>
+                        <p class="text-muted">直接来自留学生的就业择校情报</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">This is also a placeholder text</p>
+                        <h3>人生导师</h3>
+                        <p class="text-muted">岂止于文书</p>
                     </div>
                 </div>
             </div>

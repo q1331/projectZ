@@ -28,6 +28,13 @@
     <link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
     <link rel="stylesheet" href="css/search.css">
     <link href="css/shop-item.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/zabuto_calendar.css">
+	<link rel="stylesheet" type="text/css" href="js/gritter/css/jquery.gritter.css" />
+	<link rel="stylesheet" type="text/css" href="lineicons/style.css">
+	<link href="css/style-dashboard.css" rel="stylesheet">
+	<link href="css/style-responsive.css" rel="stylesheet">
+
+	<script src="js/chart-master/Chart.js"></script>
 
     <!-- HTML5 Shim marketand Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,6 +43,11 @@
     <!-- Bootstrap Date-Picker Plugin -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
 </head>
 @show
@@ -60,14 +72,45 @@
 			<li><a class="page-scroll cd-signin" href="#0">Sign in</a></li>
 			<li><a class="page-scroll cd-signup" href="#0">Sign up</a></li>
 		@else
+			<li id="header_inbox_bar" class="dropdown">
+				<a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+					<i class="fa fa-envelope-o"></i>
+					<span class="badge bg-theme">5</span>
+				</a>
+				<ul class="dropdown-menu extended inbox">
+					<div class="dropdown-content">
+					<div class="notify-arrow notify-arrow-green"></div>
+					<li>
+						<p class="green">You have 5 new messages</p>
+					</li>
+					@for($i = 0; $i < 5; $i++)
+						<li>
+							<a href="index.html#">
+								<span class="photo"><img/dashboard alt="avatar" src="img/dashboard/ui-zac.jpg"></span>
+								<span class="subject">
+								<span class="from">Someone you know</span>
+								<span class="time">Just now</span>
+								</span>
+								<span class="message">
+									这是站内信 {{$i}}
+								</span>
+							</a>
+						</li>
+					@endfor
+					<li>
+						<a href="index.html#">See all messages</a>
+					</li>
+					</div>
+				</ul>
+			</li>
             <li class="dropdown">
                 <a href="#" class="dropbtn" >{{Auth::user()->name}}<span class="caret"></span></a>
             <div class="dropdown-content">
-                <a href="{{ url('/auth/logout') }}" >Logout</a>
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
+                <a href="{{url('/dashboard')}}">Dashboard</a>
+				<a href="#">Listings</a>
+				<a href="#">Messages</a>
+				<a href="{{ url('/auth/logout') }}" >Logout</a>
+			</div>
             </li>
 		@endif
 	    </ul>
