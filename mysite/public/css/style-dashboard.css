@@ -27,15 +27,6 @@ a, a:hover, a:focus {
     text-decoration: none;
     outline: none;
 }
-::selection {
-
-    background: #68dff0;
-    color: #fff;
-}
-::-moz-selection {
-    background: #68dff0;
-    color: #fff;
-}
 
 #container {
     width: 100%;
@@ -44,7 +35,7 @@ a, a:hover, a:focus {
 
 /* Bootstrap Modifications */
 .modal-header {
-	background: #68dff0;
+	background: coral;
 }
 
 .modal-title {
@@ -206,11 +197,11 @@ hr {
 /*Exclusive Theme Colors Configuration*/
 
 .label-theme {
-	background-color: #68dff0;
+	background-color: coral;
 }
 
 .bg-theme {
-	background-color: #68dff0;
+	background-color: orangered;
 }
 
 ul.top-menu > li > .logout {
@@ -821,7 +812,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .ds a {
-	color: #68dff0;
+	color: coral;
 }
 
 /* LINE ICONS CONFIGURATION */
@@ -915,7 +906,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     position: absolute;
     bottom: 0;
     background: #ff865c;
-    color: #68dff0;
+    color: coral;
     width: 100%;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
@@ -1049,10 +1040,10 @@ PANELS CONFIGURATIONS
 /*Green Panel*/
 .green-panel {
 	text-align: center;
-	background: #68dff0;
+    color: coral;
 }
 .green-panel .green-header {
-	background: #43b1a9;
+	background: coral;
 	padding: 3px;
 	margin-bottom: 15px;
 }
@@ -1093,7 +1084,7 @@ PANELS CONFIGURATIONS
 }
 
 .white-panel i {
-	color: #68dff0;
+	color: coral;
 	padding-right: 4px;
 	font-size: 14px;
 }
@@ -1106,7 +1097,7 @@ PANELS CONFIGURATIONS
   height: 250px;
 }
 .stock .stock-chart {
-  background: #00c5de;
+  background: coral;
 }
 .stock .stock-chart #chart {
     height: 10.7em;
@@ -1267,7 +1258,7 @@ PANELS CONFIGURATIONS
 
 /* Instagram Panel*/
 .instagram-panel {
-	background: url(../img/instagram.jpg) no-repeat center top;
+	background: url(../img/dashboard/instagram.jpg) no-repeat center top;
 	text-align: center;
 	background-position: center center;
 }
@@ -1408,7 +1399,8 @@ PANELS CONFIGURATIONS
 	padding: 0px !important;
 }
 .calendar-month-header {
-	background: #43b1a9;
+	background: coral;
+    color: white;
 }
 
 /* TODO PANEL */
@@ -1612,7 +1604,7 @@ PANELS CONFIGURATIONS
     font-size: 12px;
 }
 .panel.terques-chart .chart-tittle .value a:hover, .panel.terques-chart .chart-tittle .value a.active {
-    color: #68dff0;
+    color: coral;
     font-size: 12px;
 }
 .panel.terques-chart .chart-tittle {
@@ -1620,7 +1612,7 @@ PANELS CONFIGURATIONS
     padding: 15px;
     display: inline-block;
     font-weight:normal;
-    background: #39b7ac;
+    background: coral;
     width: 100%;
     -webkit-border-radius: 0px 0px 4px 4px;
     border-radius: 0px 0px 4px 4px;
@@ -2038,7 +2030,7 @@ label {
 }
 
 .badge.bg-info {
-    background: #41cac0;
+    background: coral;
 }
 
 .badge.bg-inverse {

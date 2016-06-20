@@ -1,10 +1,8 @@
-@extends('layouts.master')
+@include('layouts.master')
 @section('body')
     <body>
     <section>
-    @extends('layouts.search')
-    @section('searchBar')
-        @parent
+        @include('layouts.search')
     </section>
     @for($i = 0; $i < 2; $i++)
     <div class="container">
@@ -19,7 +17,7 @@
                         @for($k = 0; $k < 4; $k++)
                             <p align="center">产品简介 不需要图片 {{$k}}</p>
                         @endfor
-                        <a href="#"><img src="img/tempUser.jpg" class="img-circle" alt="Cinque Terre"></a>
+                        <a href="/user"><img src="img/tempUser.jpg" class="img-circle market-user" alt="Cinque Terre"></a>
                     </div>
                     <div class="panel-footer">提供者的简介</div>
                 </div>
@@ -29,4 +27,4 @@
     </div><br>
     @endfor
     </body>
-@endsection
+    @show

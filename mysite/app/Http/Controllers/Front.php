@@ -23,6 +23,14 @@ class Front extends Controller {
 		return view('item');
 	}
 
+	public function user() {
+		return view('user');
+	}
+
+	public function test() {
+		return view('test');
+	}
+
 	public function dashboard() {
 		return view('dashboard.dashboard');
 	}

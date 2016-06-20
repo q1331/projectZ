@@ -506,6 +506,13 @@ xsigin/signup popup
 }
 
 .img-circle{
+  height: 3em;
+  height: 3em;
+  float: left;
+  padding-right: 1em;
+}
+
+.img-circle.market-user{
     height: 5em;
     height: 5em;
     position: absolute;
@@ -543,4 +550,33 @@ xsigin/signup popup
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.message-preview-a{
+  width: 300px;
+  position: relative;
+  right: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.message-preview-a .from{
+  font-size: 90%;
+}
+
+.message-preview-a .time{
+  font-size: 70%;
+}
+
+.message-preview-a p{
+  font-size: 90%;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.white-panel p{
+  margin-bottom: 0px;
+}
+
+.review-well{
+  margin-top: 90px;
 }

@@ -33,6 +33,11 @@
 	<link rel="stylesheet" type="text/css" href="lineicons/style.css">
 	<link href="css/style-dashboard.css" rel="stylesheet">
 	<link href="css/style-responsive.css" rel="stylesheet">
+	<!-- jquery -->
+	<script src="js/jquery.js"></script>
+	<!-- bootstrap core javascript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/creative.js"></script>
 
 	<script src="js/chart-master/Chart.js"></script>
 
@@ -62,7 +67,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	    </button>
-	    <a class="navbar-brand page-scroll" href="#page-top">LOGO</a>
+	    <a class="navbar-brand page-scroll" href="/">HOME</a>
 	</div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -73,35 +78,25 @@
 			<li><a class="page-scroll cd-signup" href="#0">Sign up</a></li>
 		@else
 			<li id="header_inbox_bar" class="dropdown">
-				<a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+				<a href="#" class="dropbtn" >
 					<i class="fa fa-envelope-o"></i>
 					<span class="badge bg-theme">5</span>
 				</a>
-				<ul class="dropdown-menu extended inbox">
-					<div class="dropdown-content">
-					<div class="notify-arrow notify-arrow-green"></div>
-					<li>
-						<p class="green">You have 5 new messages</p>
-					</li>
+					<div class="dropdown-content message-preview-div">
 					@for($i = 0; $i < 5; $i++)
-						<li>
-							<a href="index.html#">
-								<span class="photo"><img/dashboard alt="avatar" src="img/dashboard/ui-zac.jpg"></span>
-								<span class="subject">
-								<span class="from">Someone you know</span>
-								<span class="time">Just now</span>
+							<a href="index.html#" class="message-preview-a">
+								<span class="photo"><img class="img-circle" alt="avatar" src="img/dashboard/ui-zac.jpg"></span>
+								<span class="message-info">
+								<span class="from">某用户</span>
+								<span class="time pull-right">Just now.</span>
 								</span>
-								<span class="message">
-									这是站内信 {{$i}}
-								</span>
+								<p class="message">
+									这是站内信,长度显示测试 {{$i}}
+								</p>
 							</a>
-						</li>
 					@endfor
-					<li>
-						<a href="index.html#">See all messages</a>
-					</li>
+						<a href="index.html#" class="message-preview-a">See all messages</a>
 					</div>
-				</ul>
 			</li>
             <li class="dropdown">
                 <a href="#" class="dropbtn" >{{Auth::user()->name}}<span class="caret"></span></a>

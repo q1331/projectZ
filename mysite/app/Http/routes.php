@@ -13,6 +13,8 @@
 Route::get('/', 'Front@index');
 Route::get('/search', 'Front@search');
 Route::get('/item', 'Front@item');
+Route::get('/user', 'Front@user');
+Route::get('/test', 'Front@test');
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('/dashboard', 'Front@dashboard');
