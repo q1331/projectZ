@@ -218,6 +218,7 @@ xsigin/signup popup
 
 .cd-user-modal-container {
   position: relative;
+  top: 100px;
   width: 90%;
   max-width: 600px;
   background: #FFF;
@@ -472,6 +473,8 @@ xsigin/signup popup
 .cd-form-bottom-message a {
   color: #FFF;
   text-decoration: underline;
+  position: relative;
+  top: 30px;
 }
 
 .cd-close-form {
@@ -505,12 +508,6 @@ xsigin/signup popup
     background: coral;
 }
 
-.img-circle{
-  height: 3em;
-  height: 3em;
-  float: left;
-  padding-right: 1em;
-}
 
 .img-circle.market-user{
     height: 5em;
@@ -579,4 +576,11 @@ xsigin/signup popup
 
 .review-well{
   margin-top: 90px;
+}
+
+.img-circle{
+  height: 3em;
+  height: 3em;
+  float: left;
+  padding-right: 1em;
 }

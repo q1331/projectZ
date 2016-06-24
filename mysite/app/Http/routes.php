@@ -25,4 +25,7 @@ Route::group(['middleware' => ['web']], function () {
 // Registration routes...
     Route::get('auth/register', 'Auth\AuthController@getRegister');
     Route::post('auth/register', 'Auth\AuthController@postRegister');
+// Other routes
+    Route::get('/listings', 'Front@listings');
+    Route::get('/orders', 'Front@orders');
 });

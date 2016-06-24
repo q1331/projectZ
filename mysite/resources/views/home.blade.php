@@ -5,13 +5,13 @@
         <div class="header-content">
             <div class="header-content-inner">
                 @if(!Auth::check())
-                    <h1>This is some awesome welcome message</h1>
+                    <h1>留学飞跃的新选择</h1>
                 @else
                     <h1>Welcome, {{Auth::user()->name}}</h1>
                 @endif
                 <hr>
-                <p>This is a startup with promising future.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>全球第三大留学电商品牌</p>
+                <a href="#services" class="btn btn-primary btn-xl page-scroll">启程!</a>
             </div>
         </div>
     </header>
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">寻找你的导师</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -63,10 +63,6 @@
     </section>
 
     <!-- plugin javascript -->
-    <script src="js/scrollreveal.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
     <!-- custom theme javascript -->
 
 </body>

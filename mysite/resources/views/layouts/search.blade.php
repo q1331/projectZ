@@ -22,7 +22,7 @@
                                 </div>
                             </div>
                             <div class="col-md-5">
-                                <button type="submit" class="btn btn-default btn-primary">Search</button>
+                                <button type="submit" class="btn btn-default btn-primary">搜索</button>
                             </div>
                         </form>
                     </div>

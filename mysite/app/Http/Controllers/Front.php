@@ -23,12 +23,20 @@ class Front extends Controller {
 		return view('item');
 	}
 
+	public function orders() {
+		return view('orders');
+	}
+	
 	public function user() {
 		return view('user');
 	}
+	
+	public function listings() {
+		return view('listings');
+	}
 
 	public function test() {
-		return view('test');
+		return view('testChild');
 	}
 
 	public function dashboard() {

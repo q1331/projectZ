@@ -1,0 +1,25 @@
+.orders-div{
+    position: relative;
+    top: 150px;
+}
+
+.nav.nav-pills{
+    position: relative;
+    left: 500px;
+    color: coral;
+    top: -40px;
+}
+
+.nav-pills a.active{
+    background-color: coral;
+    color: white;
+}
+
+.nav-pills a {
+    color: coral;
+}
+
+.nav-pills a.active:hover{
+    background-color: coral;
+    color: white;
+}

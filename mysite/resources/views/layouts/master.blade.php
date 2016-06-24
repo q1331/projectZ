@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="css/creative.css" type="text/css">
     <link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
     <link rel="stylesheet" href="css/search.css">
+	<link rel="stylesheet" href="css/style-orders.css">
+	<link rel="stylesheet" href="css/multiForm.css">
     <link href="css/shop-item.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/zabuto_calendar.css">
 	<link rel="stylesheet" type="text/css" href="js/gritter/css/jquery.gritter.css" />
@@ -37,11 +39,12 @@
 	<script src="js/jquery.js"></script>
 	<!-- bootstrap core javascript -->
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/creative.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
 
-	<script src="js/chart-master/Chart.js"></script>
-
-    <!-- HTML5 Shim marketand Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- HTML5 Shim marketand Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
@@ -101,10 +104,11 @@
             <li class="dropdown">
                 <a href="#" class="dropbtn" >{{Auth::user()->name}}<span class="caret"></span></a>
             <div class="dropdown-content">
-                <a href="{{url('/dashboard')}}">Dashboard</a>
-				<a href="#">Listings</a>
-				<a href="#">Messages</a>
-				<a href="{{ url('/auth/logout') }}" >Logout</a>
+                <a href="{{url('/dashboard')}}">个人资料</a>
+				<a href="/listings">我的服务</a>
+				<a href="/orders">我的订单</a>
+				<a href="#">我的申请</a>
+				<a href="{{ url('/auth/logout') }}" >登出</a>
 			</div>
             </li>
 		@endif
@@ -210,7 +214,10 @@
 			<a href="#0" class="cd-close-form">Close</a>
 		</div> <!-- cd-user-modal-container -->
 	</div> <!-- cd-user-modal -->
-	<script src="js/main.js"></script> <!-- Gem jQuery -->
 @show
 @yield('body')
+<script src="js/scrollreveal.min.js"></script>
+<script src="js/creative.js"></script>
+<script src="js/chart-master/Chart.js"></script>
+<script src="js/main.js"></script> <!-- Gem jQuery -->
 </html>
