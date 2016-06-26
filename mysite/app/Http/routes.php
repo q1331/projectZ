@@ -28,4 +28,6 @@ Route::group(['middleware' => ['web']], function () {
 // Other routes
     Route::get('/listings', 'Front@listings');
     Route::get('/orders', 'Front@orders');
+    Route::get('/myapplication', 'Front@myapplication');
+    Route::post('/upload', 'Front@upload');
 });

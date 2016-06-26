@@ -107,7 +107,7 @@
                 <a href="{{url('/dashboard')}}">个人资料</a>
 				<a href="/listings">我的服务</a>
 				<a href="/orders">我的订单</a>
-				<a href="#">我的申请</a>
+				<a href="/myapplication">我的申请</a>
 				<a href="{{ url('/auth/logout') }}" >登出</a>
 			</div>
             </li>

@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 use App\User;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use League\Flysystem\Exception;
+use Validator;
 
 class Front extends Controller {
 
@@ -21,6 +24,10 @@ class Front extends Controller {
 	
 	public function item() {
 		return view('item');
+	}
+
+	public function myapplication() {
+		return view('myapplication');
 	}
 
 	public function orders() {
@@ -68,4 +75,31 @@ class Front extends Controller {
    		return Redirect::away('login');
 	}
 
+	public function upload(Request $request){
+		try{
+			$file = array('upl' => $request->file('upl'));
+			$rules = array('upl' => 'required',);
+			$validator = Validator::make($file, $rules);
+			if ($validator->fails()) {
+				echo '{"status":"error"}';
+				exit;
+			} else {
+				if ($request->file('upl')->isValid()) {
+					$destinationPath = 'uploads'; // upload path
+					$extension = $request->file('upl')->getClientOriginalExtension();
+					$fileName = rand(11111, 99999) . '.' . $extension;
+					$request->file('upl')->move($destinationPath, $fileName);
+					echo '{"status":"success"}';
+					exit;
+				} else {
+					echo '{"status":"error"}';
+					exit;
+				}
+			}
+		}
+		catch(Exception $e){
+			echo '{"status":"error"}';
+			exit;
+		}
+	}
 }
