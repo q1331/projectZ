@@ -35,6 +35,7 @@
 	<link rel="stylesheet" type="text/css" href="lineicons/style.css">
 	<link href="css/style-dashboard.css" rel="stylesheet">
 	<link href="css/style-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/accordion.css">
 	<!-- jquery -->
 	<script src="js/jquery.js"></script>
 	<!-- bootstrap core javascript -->
